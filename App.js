@@ -7,7 +7,7 @@ import * as ImageManipulator from "expo-image-manipulator";
 import * as SplashScreen from 'expo-splash-screen';
 
 SplashScreen.preventAutoHideAsync();
-setTimeout(SplashScreen.hideAsync, 20);
+setTimeout(SplashScreen.hideAsync, 3000);
 
 export default function App() {
     const [selectedImage, setsSelectedImage] = React.useState(null);
